@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-Ua-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>계산기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <div class="main">
+      <div class="screen_all">
+        <div class="screen">
+          <div class="button_screen" id="close_screen"></div>
+        </div>
+        <div class="screen">
+          <div class="button_screen" id="hidden_screen"></div>
+        </div>
+        <div class="screen">
+          <div class="button_screen" id="full_screen"></div>
+        </div>
+      </div>
+      <div class="display">
+        <div class="text">
+          <input class="text" type="text">
+        </div>
+      </div>
+      <div class="button">
+        <div class="button_content">
+          <div class="first">
+            <input type="button" class="button function" id="calc" value="C">
+            <input type="button" class="button function" id="plus_minus" value="±">
+            <input type="button" class="button function" id="percent" value="%">
+            <input type="button" class="button operator" id="divide" value="/">
+          </div>
+          <div class="second">
+            <input type="button" class="button number" id="number_7" value="7">
+            <input type="button" class="button number" id="number_8" value="8">
+            <input type="button" class="button number" id="number_9" value="9">
+            <input type="button" class="button operator" id="multiply" value="*">
+          </div>
+          <div class="third">
+            <input type="button" class="button number" id="number_4" value="4">
+            <input type="button" class="button number" id="number_5" value="5">
+            <input type="button" class="button number" id="number_6" value="6">
+            <input type="button" class="button operator" id="minus" value="-">
+          </div>
+          <div class="fourth">
+            <input type="button" class="button number" id="number_1" value="1">
+            <input type="button" class="button number" id="number_2" value="2">
+            <input type="button" class="button number" id="number_3" value="3">
+            <input type="button" class="button operator" id="plus" value="+">
+          </div>
+          <div class="fifth">
+            <input type="button" class="button number zero" id="number_0" value="0">
+            <input type="button" class="button operator" id="dot" value=".">
+            <input type="button" class="button operator" id="is" value="=">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

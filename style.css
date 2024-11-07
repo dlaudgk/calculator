@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.calculator-container{
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+}
+.main{
+  width: 350px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #919191;
+}
+.screen_all{
+  width: 100px;
+  margin: 0 0 0 10px
+}
+.screen{
+  display: inline-flex;
+  margin: 0 3px;
+}
+.screen:nth-child(1n){
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: red;
+}
+.screen:nth-child(2n){
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: orange;
+}
+.screen:nth-child(3n){
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: yellowgreen;
+}
+
+.display{
+  margin: 0 10px 10px 10px;
+  height:30%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+input[type=text] {
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+  border: 0;
+  text-align: right;
+}
+.button{
+  margin: 0 10px 10px 10px;
+  height: 60%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.button_content{
+  height: 100%;
+}
+.first{
+  height: 20%;
+  display: flex;
+}
+.second{
+  height: 20%;
+  display: flex;
+}
+.third{
+  height: 20%;
+  display: flex;
+}
+.fourth{
+  height: 20%;
+  display: flex;
+}
+.fifth{
+  height: 20%;
+  display: flex;
+}
+.function:nth-child(n){
+  width: 25%;
+  height: 100%;
+}
+.function:hover{
+  background-color: aliceblue;
+}
+.function:active{
+  background-color: gray;
+}
+.number:nth-child(n){
+  width: 25%;
+  height: 100%;
+}
+.number:hover{
+  background-color: aliceblue;
+}
+.number:active{
+  background-color: gray;
+}
+.zero:nth-child(n){
+  width: 60%;
+  height: 100%;
+}
+.zero:hover{
+  background-color: aliceblue;
+}
+.zero:active{
+  background-color: gray;
+}
+.operator:nth-child(n){
+  width: 25%;
+  height: 100%;
+}
+.operator:hover{
+  background-color: aliceblue;
+}
+.operator:active{
+  background-color: gray;
+}
